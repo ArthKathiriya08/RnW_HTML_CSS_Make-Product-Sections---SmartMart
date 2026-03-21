@@ -85,7 +85,6 @@ select{
 .Products{
     height: auto;
     max-width: 100%;
-    background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
