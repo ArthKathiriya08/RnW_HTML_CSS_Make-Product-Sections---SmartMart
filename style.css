@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfdfdf;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.text{
+    margin-left: 30px;
+}
+
+.E-Grocery{
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+span{
+    color: #585858;
+    font-size: 35px;
+}
+
+.inp{
+    font-size: 35px;
+    color: #585858;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: #585858 solid 2px;
+    border-radius: 10px;
+    /* height: 70px; */
+    padding: 15px;
+    background-color: white;
+}
+
+input{
+    border: none;
+    font-size: 26px;
+    width: 375px;
+}
+
+input::placeholder{
+    color: #585858;
+}
+
+img{
+    width: 800px;
+}
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.Products-found{
+    font-size: 20px;
+    color: #585858;
+}
+
+#cont{
+    width: 100px;
+}
+
+select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+.Products{
+    height: auto;
+    max-width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding: 20px; */
+}
+
+.prod{
+    height: auto;
+    width: 300px;
+    background-color: white;
+    border-radius: 30px;
+    border: #505050 solid 2px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.hod-img{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.prod-img{
+    width: 200px;
+    height: auto;
+}
+
+.prod-text{
+    /* padding: 10px; */
+}
+
+#products-text{
+    margin-top: 10px;
+}
+
+.prod-add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 70px;
+    padding: 8px;
+}
