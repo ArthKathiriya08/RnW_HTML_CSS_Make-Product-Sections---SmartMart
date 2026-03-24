@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* -----------------------------nev start--------------------------- */
 
 .nev{
     display: flex;
@@ -57,7 +58,9 @@ img{
 }
 
 
+/* -----------------------------nev end--------------------------- */
 
+/* -----------------------------menu start--------------------------- */
 .menu{
     display: flex;
     align-items: center;
@@ -66,6 +69,7 @@ img{
     /* margin-bottom: 20px; */
 }
 
+        /* ---------- Products-found start ---------- */
 .Products-found{
     font-size: 20px;
     color: #585858;
@@ -80,15 +84,27 @@ select{
     border-radius: 5px;
 }
 
+        /* ---------- Products-found end ---------- */
 
 
+
+        /* ---------- Products start ---------- */
 .Products{
     height: auto;
     max-width: 100%;
+    /* background-color: antiquewhite; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     /* padding: 20px; */
+}
+
+.sale{
+    border-radius: 2px;
+    background-color: red;
+    width: fit-content;
+    padding: 4px;
+    
 }
 
 .prod{
@@ -133,5 +149,12 @@ button{
     align-items: center;
     height: 50px;
     width: 70px;
-    padding: 8px;
+    padding: 5px;
+    background-color: greenyellow;
+    border-radius: 5px;
 }
+        /* ---------- Products-found end ---------- */
+
+
+
+/* -----------------------------menu end--------------------------- */
